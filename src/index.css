@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+position: relative;
+width: 100vw;
+height: 100vh;
+
+/* Landing page */
+background: linear-gradient(180deg, #F7DBEA 28.85%, #6CA0CD 100%);
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
