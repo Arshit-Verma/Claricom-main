@@ -34,7 +34,7 @@ const Hero = () => {
 
       <div className='flex mt-7 gap-10 '>
         <div className='flex flex-col items-center'>
-          <img src="./image 11.png" alt="" />
+            <img src="/image 11.png" alt="Student" />
           <button
             onClick={() => handleRoleButtonClick('student')}
             className='border border-transparent m-4 p-2 rounded-lg bg-[#f7DBEA] font-bold w-40'
@@ -44,7 +44,7 @@ const Hero = () => {
         </div>
 
         <div className='flex flex-col items-center'>
-          <img src="./image 6.png" alt="" />
+            <img src="/image 6.png" alt="Mentor" />
           <button
             onClick={() => handleRoleButtonClick('mentor')}
             className='border border-transparent m-4 p-2 rounded-lg bg-[#f7DBEA] font-bold w-40'
@@ -54,7 +54,7 @@ const Hero = () => {
         </div>
 
         <div className='flex flex-col items-center'>
-          <img src="./image 7.png" alt="" />
+            <img src="C:\Users\Arshit\Desktop\claricom\Claricom-main\public\image 7.jpg" alt="Sponsor" />
           <button
             onClick={() => handleRoleButtonClick('sponsor')}
             className='border border-transparent m-4 p-2 rounded-lg bg-[#f7DBEA] font-bold w-40'
