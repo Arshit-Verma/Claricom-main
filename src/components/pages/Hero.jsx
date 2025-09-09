@@ -54,7 +54,7 @@ const Hero = () => {
         </div>
 
         <div className='flex flex-col items-center'>
-            <img src="C:\Users\Arshit\Desktop\claricom\Claricom-main\public\image 7.jpg" alt="Sponsor" />
+            <img src="/image 7.jpg" alt="Sponsor" />
           <button
             onClick={() => handleRoleButtonClick('sponsor')}
             className='border border-transparent m-4 p-2 rounded-lg bg-[#f7DBEA] font-bold w-40'
