@@ -19,7 +19,7 @@ app.use(express.json());
 // });
 
 // Initialize Gemini AI
-const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY || 'AIzaSyBtkayaqNLfLLaRrwoG1gy8bjpSkKr-qT8');
+const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY || '<write your key here>');
 const model = genAI.getGenerativeModel({ model: 'gemini-pro' });
 
 // Routes
