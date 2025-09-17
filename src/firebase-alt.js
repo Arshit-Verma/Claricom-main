@@ -41,7 +41,7 @@ try {
 }
 
 // Initialize Gemini AI
-const genAI = new GoogleGenerativeAI("AIzaSyBtkayaqNLfLLaRrwoG1gy8bjpSkKr-qT8");
+const genAI = new GoogleGenerativeAI("<enter api key>");
 export const model = genAI.getGenerativeModel({ model: "gemini-pro" });
 
 export { auth, db };
