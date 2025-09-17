@@ -6,7 +6,7 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAOwR4_BY2z5_xhx076jURBIyQ-6smWP8I",
+  apiKey: "<enter api key>",
   authDomain: "claricom-793e4.firebaseapp.com",
   projectId: "claricom-793e4",
   storageBucket: "claricom-793e4.firebasestorage.app",
